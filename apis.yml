@@ -1,19 +1,46 @@
 aid: moonwalk
-name: Moonwalk
-description: Moonwalk is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonwalk.png
+name: Moonwalk Biosciences
+description: >-
+  Moonwalk Biosciences is a biotechnology company pioneering therapeutics in
+  adipose (fat) biology, driven by deep genetic and epigenetic insights. Co-founded
+  by Alex Aravanis (CEO), Arash Jamshidi (President & CTO), Justin Valley (Chief
+  Platform Officer), and CRISPR pioneer Feng Zhang, the company develops epigenetic
+  and siRNA-based programs — including obesity therapies — and is backed by Khosla
+  Ventures, ARCH Venture Partners, Google Ventures, Future Ventures, Alpha Wave
+  Global, and YK Bioventures. Moonwalk does not currently publish a public developer
+  program, API, or API documentation; this profile captures its corporate identity
+  and web presence in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/moonwalk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - khosla-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Epigenetics
+- Obesity
+- Healthcare
+- Drug Discovery
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moonwalk-domain-security.yml
 - type: Website
   url: https://moonwalk.bio/
+- type: Blog
+  url: https://moonwalk.bio/news
+- type: Support
+  url: https://moonwalk.bio/contact/
+- type: PrivacyPolicy
+  url: https://moonwalk.bio/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
